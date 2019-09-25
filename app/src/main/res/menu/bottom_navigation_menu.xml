@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-            android:id="@+id/action_main_list"
+            android:id="@+id/transactionListFragment"
             android:enabled="true"
             android:icon="@drawable/ic_payment_black_24dp"
             android:title="@string/title_main_list"
             app:showAsAction="ifRoom" />
     <item
-            android:id="@+id/action_statistics"
+            android:id="@+id/statisticsFragment"
             android:enabled="true"
             android:icon="@drawable/ic_receipt_black_24dp"
             android:title="@string/title_statistics"
             app:showAsAction="ifRoom" />
     <item
-            android:id="@+id/action_map"
+            android:id="@+id/mapFragment"
             android:enabled="true"
             android:icon="@drawable/ic_location_on_black_24dp"
             android:title="@string/title_map"
             app:showAsAction="ifRoom" />
 
     <item
-            android:id="@+id/action_settings"
+            android:id="@+id/settingsFragment"
             android:enabled="true"
             android:icon="@drawable/ic_settings_black_24dp"
             android:title="@string/title_settings"

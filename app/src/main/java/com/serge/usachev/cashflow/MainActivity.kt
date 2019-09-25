@@ -1,16 +1,16 @@
 package com.serge.usachev.cashflow
 
 import android.Manifest
-import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationServices
+import androidx.navigation.findNavController
+import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +24,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        requestPermissions()
+
+        val navController = findNavController(R.id.nav_host_fragment)
+        findViewById<BottomNavigationView>(R.id.main_bottom_navigation).setupWithNavController(navController)
+    }
+
+    private fun requestPermissions() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_SMS) != PackageManager.PERMISSION_GRANTED) {
             showRequestPermissionsInfoAlertDialog()
         }
@@ -34,9 +41,9 @@ class MainActivity : AppCompatActivity() {
 
             } else {
                 ActivityCompat.requestPermissions(
-                        this,
-                        arrayOf(Manifest.permission.ACCESS_COARSE_LOCATION),
-                        COARSE_LOCATION_PERMISSION_CODE
+                    this,
+                    arrayOf(Manifest.permission.ACCESS_COARSE_LOCATION),
+                    COARSE_LOCATION_PERMISSION_CODE
                 )
             }
 
