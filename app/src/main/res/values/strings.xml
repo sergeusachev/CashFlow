@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CashFlow</string>
     <string name="notification_listener_service_name">CashFlowNotificationListener</string>
-    <string name="title_main_list">Транзакции</string>
+    <string name="title_history">История</string>
     <string name="title_statistics">Статистика</string>
     <string name="title_map">Карта расходов</string>
     <string name="title_settings">Настройки</string>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/top_nav_graph"
+        app:startDestination="@id/bottomNavFragment">
+
+    <fragment
+            android:id="@+id/bottomNavFragment"
+            android:name="com.serge.usachev.cashflow.view.BottomNavFragment"
+            android:label="BottomNavFragment" />
+    <fragment
+            android:id="@+id/transactionFragment"
+            android:name="com.serge.usachev.cashflow.view.TransactionFragment"
+            android:label="TransactionFragment" />
+</navigation>

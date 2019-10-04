@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "996122972404",
+    "firebase_url": "https://com-serge-usachev-cashflow.firebaseio.com",
+    "project_id": "com-serge-usachev-cashflow",
+    "storage_bucket": "com-serge-usachev-cashflow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996122972404:android:5d224e57ebbc98b7a50ea1",
+        "android_client_info": {
+          "package_name": "com.serge.usachev.cashflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996122972404-tfk8pqlnn0taqmuo4fv6qjlsmlqldo5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAam_pY2qVZfDIQo-aQxvdmvPY2TXw_eXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996122972404-tfk8pqlnn0taqmuo4fv6qjlsmlqldo5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

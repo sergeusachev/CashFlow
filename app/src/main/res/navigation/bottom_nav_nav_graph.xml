@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/navigation_graph"
-        app:startDestination="@id/transactionListFragment">
+        android:id="@+id/bottom_nav_nav_graph"
+        app:startDestination="@id/historyFragment">
+
     <fragment
-            android:id="@+id/transactionListFragment"
-            android:name="com.serge.usachev.cashflow.view.TransactionListFragment"
-            android:label="TransactionListFragment" />
+            android:id="@+id/historyFragment"
+            android:name="com.serge.usachev.cashflow.view.HistoryFragment"
+            android:label="HistoryFragment" />
     <fragment
             android:id="@+id/statisticsFragment"
             android:name="com.serge.usachev.cashflow.view.StatisticsFragment"
@@ -19,4 +20,5 @@
             android:id="@+id/settingsFragment"
             android:name="com.serge.usachev.cashflow.view.SettingsFragment"
             android:label="SettingsFragment" />
+
 </navigation>

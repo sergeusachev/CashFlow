@@ -26,8 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         requestPermissions()
 
-        val navController = findNavController(R.id.nav_host_fragment)
-        findViewById<BottomNavigationView>(R.id.main_bottom_navigation).setupWithNavController(navController)
+        val navController = findNavController(R.id.top_nav_host_fragment)
     }
 
     private fun requestPermissions() {

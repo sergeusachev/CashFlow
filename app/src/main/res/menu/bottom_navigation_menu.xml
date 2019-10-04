@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-            android:id="@+id/transactionListFragment"
+            android:id="@+id/historyFragment"
             android:enabled="true"
             android:icon="@drawable/ic_payment_black_24dp"
-            android:title="@string/title_main_list"
+            android:title="@string/title_history"
             app:showAsAction="ifRoom" />
     <item
             android:id="@+id/statisticsFragment"
