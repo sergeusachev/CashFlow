@@ -8,6 +8,7 @@
             android:id="@+id/bottomNavFragment"
             android:name="com.serge.usachev.cashflow.view.BottomNavFragment"
             android:label="BottomNavFragment" />
+
     <fragment
             android:id="@+id/transactionFragment"
             android:name="com.serge.usachev.cashflow.view.TransactionFragment"
